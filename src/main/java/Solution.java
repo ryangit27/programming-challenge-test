@@ -4,26 +4,24 @@ public class Solution {
      * return the sum of a and b.
      */
     public int add(int a, int b) {
-        //replace 0  with your implementation
-        return 0;
-        //throw new UnsupportedOperationException("Not implemented yet");
+        int x = a+b;
+        return x;
     }
 
     /**
      * return the difference of a and b.
      */
     public int subtract(int a, int b) {
-        // replace 0  with your implementation
-        return 0;
-        //throw new UnsupportedOperationException("Not implemented yet");
+        int x = a-b;
+        return x;
     }
 
     /**
      * return the product of a and b.
      */
     public int multiply (int a, int b){
-        // replace 0  with your implementation
-        return 0;
+        int x = a*b;
+        return x;
     }
 
     /**
@@ -31,16 +29,16 @@ public class Solution {
      */
 
     public double divide (int a, int b){
-        // replace 0.0  with your implementation
-        return 0;
+        double x = (double)a/b;
+        return x;
     }
 
     /**
      * return the string concatenation of word1 and word2 
      */
     public String concatenate (String word1, String word2){
-        // replace ""  with your implementation
-        return "";
+        String x = word1+word2;
+        return x;
     }
 
 
@@ -52,14 +50,18 @@ public class Solution {
      * Return x.
  */
     public int transform(int a) {
-        // replace 0 with your implementation
-        return 0;
+        int x = a;
+        x += 4;
+        x *= 3;
+        x -= a;
+        return x;
     }
 
     public static void main(String[] args) {
         //this main method is for manually debugging
         Solution solution = new Solution();
-                        //change "solution" method to any of the methods you would like to test
+        int g = solution.add(5,6);
+        double h = solution.divide(g,3);
         System.out.println(solution.add(1, 2));
 
     }
